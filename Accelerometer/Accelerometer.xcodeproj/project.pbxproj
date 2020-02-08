@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1816D45323E857B600182D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D45223E857B600182D53 /* AppDelegate.swift */; };
-		1816D45523E857B600182D53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D45423E857B600182D53 /* SceneDelegate.swift */; };
-		1816D45723E857B600182D53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D45623E857B600182D53 /* ViewController.swift */; };
-		1816D45A23E857B600182D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816D45823E857B600182D53 /* Main.storyboard */; };
-		1816D45C23E857B800182D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1816D45B23E857B800182D53 /* Assets.xcassets */; };
-		1816D45F23E857B800182D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816D45D23E857B800182D53 /* LaunchScreen.storyboard */; };
-		1816D46A23E857B800182D53 /* ItsuDareGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D46923E857B800182D53 /* ItsuDareGameTests.swift */; };
-		1816D47523E857B800182D53 /* ItsuDareGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D47423E857B800182D53 /* ItsuDareGameUITests.swift */; };
+		1811794423EF2DD400D1F01B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811794323EF2DD400D1F01B /* AppDelegate.swift */; };
+		1811794623EF2DD400D1F01B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811794523EF2DD400D1F01B /* SceneDelegate.swift */; };
+		1811794823EF2DD400D1F01B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811794723EF2DD400D1F01B /* ViewController.swift */; };
+		1811794B23EF2DD400D1F01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1811794923EF2DD400D1F01B /* Main.storyboard */; };
+		1811794D23EF2DD500D1F01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1811794C23EF2DD500D1F01B /* Assets.xcassets */; };
+		1811795023EF2DD500D1F01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1811794E23EF2DD500D1F01B /* LaunchScreen.storyboard */; };
+		1811795B23EF2DD500D1F01B /* AccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811795A23EF2DD500D1F01B /* AccelerometerTests.swift */; };
+		1811796623EF2DD500D1F01B /* AccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811796523EF2DD500D1F01B /* AccelerometerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1816D46623E857B800182D53 /* PBXContainerItemProxy */ = {
+		1811795723EF2DD500D1F01B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1816D44723E857B600182D53 /* Project object */;
+			containerPortal = 1811793823EF2DD400D1F01B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1816D44E23E857B600182D53;
-			remoteInfo = ItsuDareGame;
+			remoteGlobalIDString = 1811793F23EF2DD400D1F01B;
+			remoteInfo = Accelerometer;
 		};
-		1816D47123E857B800182D53 /* PBXContainerItemProxy */ = {
+		1811796223EF2DD500D1F01B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1816D44723E857B600182D53 /* Project object */;
+			containerPortal = 1811793823EF2DD400D1F01B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1816D44E23E857B600182D53;
-			remoteInfo = ItsuDareGame;
+			remoteGlobalIDString = 1811793F23EF2DD400D1F01B;
+			remoteInfo = Accelerometer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1816D44F23E857B600182D53 /* ItsuDareGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItsuDareGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1816D45223E857B600182D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1816D45423E857B600182D53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1816D45623E857B600182D53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1816D45923E857B600182D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1816D45B23E857B800182D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1816D45E23E857B800182D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1816D46023E857B800182D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1816D46523E857B800182D53 /* ItsuDareGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItsuDareGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1816D46923E857B800182D53 /* ItsuDareGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItsuDareGameTests.swift; sourceTree = "<group>"; };
-		1816D46B23E857B800182D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1816D47023E857B800182D53 /* ItsuDareGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItsuDareGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1816D47423E857B800182D53 /* ItsuDareGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItsuDareGameUITests.swift; sourceTree = "<group>"; };
-		1816D47623E857B800182D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1811794023EF2DD400D1F01B /* Accelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1811794323EF2DD400D1F01B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1811794523EF2DD400D1F01B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1811794723EF2DD400D1F01B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1811794A23EF2DD400D1F01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1811794C23EF2DD500D1F01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1811794F23EF2DD500D1F01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1811795123EF2DD500D1F01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1811795623EF2DD500D1F01B /* AccelerometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1811795A23EF2DD500D1F01B /* AccelerometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerTests.swift; sourceTree = "<group>"; };
+		1811795C23EF2DD500D1F01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1811796123EF2DD500D1F01B /* AccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1811796523EF2DD500D1F01B /* AccelerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerUITests.swift; sourceTree = "<group>"; };
+		1811796723EF2DD500D1F01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1816D44C23E857B600182D53 /* Frameworks */ = {
+		1811793D23EF2DD400D1F01B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1816D46223E857B800182D53 /* Frameworks */ = {
+		1811795323EF2DD500D1F01B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1816D46D23E857B800182D53 /* Frameworks */ = {
+		1811795E23EF2DD500D1F01B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,138 +76,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1816D44623E857B600182D53 = {
+		1811793723EF2DD400D1F01B = {
 			isa = PBXGroup;
 			children = (
-				1816D45123E857B600182D53 /* ItsuDareGame */,
-				1816D46823E857B800182D53 /* ItsuDareGameTests */,
-				1816D47323E857B800182D53 /* ItsuDareGameUITests */,
-				1816D45023E857B600182D53 /* Products */,
+				1811794223EF2DD400D1F01B /* Accelerometer */,
+				1811795923EF2DD500D1F01B /* AccelerometerTests */,
+				1811796423EF2DD500D1F01B /* AccelerometerUITests */,
+				1811794123EF2DD400D1F01B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1816D45023E857B600182D53 /* Products */ = {
+		1811794123EF2DD400D1F01B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1816D44F23E857B600182D53 /* ItsuDareGame.app */,
-				1816D46523E857B800182D53 /* ItsuDareGameTests.xctest */,
-				1816D47023E857B800182D53 /* ItsuDareGameUITests.xctest */,
+				1811794023EF2DD400D1F01B /* Accelerometer.app */,
+				1811795623EF2DD500D1F01B /* AccelerometerTests.xctest */,
+				1811796123EF2DD500D1F01B /* AccelerometerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1816D45123E857B600182D53 /* ItsuDareGame */ = {
+		1811794223EF2DD400D1F01B /* Accelerometer */ = {
 			isa = PBXGroup;
 			children = (
-				1816D45223E857B600182D53 /* AppDelegate.swift */,
-				1816D45423E857B600182D53 /* SceneDelegate.swift */,
-				1816D45623E857B600182D53 /* ViewController.swift */,
-				1816D45823E857B600182D53 /* Main.storyboard */,
-				1816D45B23E857B800182D53 /* Assets.xcassets */,
-				1816D45D23E857B800182D53 /* LaunchScreen.storyboard */,
-				1816D46023E857B800182D53 /* Info.plist */,
+				1811794323EF2DD400D1F01B /* AppDelegate.swift */,
+				1811794523EF2DD400D1F01B /* SceneDelegate.swift */,
+				1811794723EF2DD400D1F01B /* ViewController.swift */,
+				1811794923EF2DD400D1F01B /* Main.storyboard */,
+				1811794C23EF2DD500D1F01B /* Assets.xcassets */,
+				1811794E23EF2DD500D1F01B /* LaunchScreen.storyboard */,
+				1811795123EF2DD500D1F01B /* Info.plist */,
 			);
-			path = ItsuDareGame;
+			path = Accelerometer;
 			sourceTree = "<group>";
 		};
-		1816D46823E857B800182D53 /* ItsuDareGameTests */ = {
+		1811795923EF2DD500D1F01B /* AccelerometerTests */ = {
 			isa = PBXGroup;
 			children = (
-				1816D46923E857B800182D53 /* ItsuDareGameTests.swift */,
-				1816D46B23E857B800182D53 /* Info.plist */,
+				1811795A23EF2DD500D1F01B /* AccelerometerTests.swift */,
+				1811795C23EF2DD500D1F01B /* Info.plist */,
 			);
-			path = ItsuDareGameTests;
+			path = AccelerometerTests;
 			sourceTree = "<group>";
 		};
-		1816D47323E857B800182D53 /* ItsuDareGameUITests */ = {
+		1811796423EF2DD500D1F01B /* AccelerometerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1816D47423E857B800182D53 /* ItsuDareGameUITests.swift */,
-				1816D47623E857B800182D53 /* Info.plist */,
+				1811796523EF2DD500D1F01B /* AccelerometerUITests.swift */,
+				1811796723EF2DD500D1F01B /* Info.plist */,
 			);
-			path = ItsuDareGameUITests;
+			path = AccelerometerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1816D44E23E857B600182D53 /* ItsuDareGame */ = {
+		1811793F23EF2DD400D1F01B /* Accelerometer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1816D47923E857B800182D53 /* Build configuration list for PBXNativeTarget "ItsuDareGame" */;
+			buildConfigurationList = 1811796A23EF2DD500D1F01B /* Build configuration list for PBXNativeTarget "Accelerometer" */;
 			buildPhases = (
-				1816D44B23E857B600182D53 /* Sources */,
-				1816D44C23E857B600182D53 /* Frameworks */,
-				1816D44D23E857B600182D53 /* Resources */,
+				1811793C23EF2DD400D1F01B /* Sources */,
+				1811793D23EF2DD400D1F01B /* Frameworks */,
+				1811793E23EF2DD400D1F01B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ItsuDareGame;
-			productName = ItsuDareGame;
-			productReference = 1816D44F23E857B600182D53 /* ItsuDareGame.app */;
+			name = Accelerometer;
+			productName = Accelerometer;
+			productReference = 1811794023EF2DD400D1F01B /* Accelerometer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1816D46423E857B800182D53 /* ItsuDareGameTests */ = {
+		1811795523EF2DD500D1F01B /* AccelerometerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1816D47C23E857B800182D53 /* Build configuration list for PBXNativeTarget "ItsuDareGameTests" */;
+			buildConfigurationList = 1811796D23EF2DD500D1F01B /* Build configuration list for PBXNativeTarget "AccelerometerTests" */;
 			buildPhases = (
-				1816D46123E857B800182D53 /* Sources */,
-				1816D46223E857B800182D53 /* Frameworks */,
-				1816D46323E857B800182D53 /* Resources */,
+				1811795223EF2DD500D1F01B /* Sources */,
+				1811795323EF2DD500D1F01B /* Frameworks */,
+				1811795423EF2DD500D1F01B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1816D46723E857B800182D53 /* PBXTargetDependency */,
+				1811795823EF2DD500D1F01B /* PBXTargetDependency */,
 			);
-			name = ItsuDareGameTests;
-			productName = ItsuDareGameTests;
-			productReference = 1816D46523E857B800182D53 /* ItsuDareGameTests.xctest */;
+			name = AccelerometerTests;
+			productName = AccelerometerTests;
+			productReference = 1811795623EF2DD500D1F01B /* AccelerometerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1816D46F23E857B800182D53 /* ItsuDareGameUITests */ = {
+		1811796023EF2DD500D1F01B /* AccelerometerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1816D47F23E857B800182D53 /* Build configuration list for PBXNativeTarget "ItsuDareGameUITests" */;
+			buildConfigurationList = 1811797023EF2DD500D1F01B /* Build configuration list for PBXNativeTarget "AccelerometerUITests" */;
 			buildPhases = (
-				1816D46C23E857B800182D53 /* Sources */,
-				1816D46D23E857B800182D53 /* Frameworks */,
-				1816D46E23E857B800182D53 /* Resources */,
+				1811795D23EF2DD500D1F01B /* Sources */,
+				1811795E23EF2DD500D1F01B /* Frameworks */,
+				1811795F23EF2DD500D1F01B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1816D47223E857B800182D53 /* PBXTargetDependency */,
+				1811796323EF2DD500D1F01B /* PBXTargetDependency */,
 			);
-			name = ItsuDareGameUITests;
-			productName = ItsuDareGameUITests;
-			productReference = 1816D47023E857B800182D53 /* ItsuDareGameUITests.xctest */;
+			name = AccelerometerUITests;
+			productName = AccelerometerUITests;
+			productReference = 1811796123EF2DD500D1F01B /* AccelerometerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1816D44723E857B600182D53 /* Project object */ = {
+		1811793823EF2DD400D1F01B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = konatsup;
 				TargetAttributes = {
-					1816D44E23E857B600182D53 = {
+					1811793F23EF2DD400D1F01B = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					1816D46423E857B800182D53 = {
+					1811795523EF2DD500D1F01B = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 1816D44E23E857B600182D53;
+						TestTargetID = 1811793F23EF2DD400D1F01B;
 					};
-					1816D46F23E857B800182D53 = {
+					1811796023EF2DD500D1F01B = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 1816D44E23E857B600182D53;
+						TestTargetID = 1811793F23EF2DD400D1F01B;
 					};
 				};
 			};
-			buildConfigurationList = 1816D44A23E857B600182D53 /* Build configuration list for PBXProject "ItsuDareGame" */;
+			buildConfigurationList = 1811793B23EF2DD400D1F01B /* Build configuration list for PBXProject "Accelerometer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 1816D44623E857B600182D53;
-			productRefGroup = 1816D45023E857B600182D53 /* Products */;
+			mainGroup = 1811793723EF2DD400D1F01B;
+			productRefGroup = 1811794123EF2DD400D1F01B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1816D44E23E857B600182D53 /* ItsuDareGame */,
-				1816D46423E857B800182D53 /* ItsuDareGameTests */,
-				1816D46F23E857B800182D53 /* ItsuDareGameUITests */,
+				1811793F23EF2DD400D1F01B /* Accelerometer */,
+				1811795523EF2DD500D1F01B /* AccelerometerTests */,
+				1811796023EF2DD500D1F01B /* AccelerometerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1816D44D23E857B600182D53 /* Resources */ = {
+		1811793E23EF2DD400D1F01B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1816D45F23E857B800182D53 /* LaunchScreen.storyboard in Resources */,
-				1816D45C23E857B800182D53 /* Assets.xcassets in Resources */,
-				1816D45A23E857B600182D53 /* Main.storyboard in Resources */,
+				1811795023EF2DD500D1F01B /* LaunchScreen.storyboard in Resources */,
+				1811794D23EF2DD500D1F01B /* Assets.xcassets in Resources */,
+				1811794B23EF2DD400D1F01B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1816D46323E857B800182D53 /* Resources */ = {
+		1811795423EF2DD500D1F01B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1816D46E23E857B800182D53 /* Resources */ = {
+		1811795F23EF2DD500D1F01B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1816D44B23E857B600182D53 /* Sources */ = {
+		1811793C23EF2DD400D1F01B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1816D45723E857B600182D53 /* ViewController.swift in Sources */,
-				1816D45323E857B600182D53 /* AppDelegate.swift in Sources */,
-				1816D45523E857B600182D53 /* SceneDelegate.swift in Sources */,
+				1811794823EF2DD400D1F01B /* ViewController.swift in Sources */,
+				1811794423EF2DD400D1F01B /* AppDelegate.swift in Sources */,
+				1811794623EF2DD400D1F01B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1816D46123E857B800182D53 /* Sources */ = {
+		1811795223EF2DD500D1F01B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1816D46A23E857B800182D53 /* ItsuDareGameTests.swift in Sources */,
+				1811795B23EF2DD500D1F01B /* AccelerometerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1816D46C23E857B800182D53 /* Sources */ = {
+		1811795D23EF2DD500D1F01B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1816D47523E857B800182D53 /* ItsuDareGameUITests.swift in Sources */,
+				1811796623EF2DD500D1F01B /* AccelerometerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1816D46723E857B800182D53 /* PBXTargetDependency */ = {
+		1811795823EF2DD500D1F01B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1816D44E23E857B600182D53 /* ItsuDareGame */;
-			targetProxy = 1816D46623E857B800182D53 /* PBXContainerItemProxy */;
+			target = 1811793F23EF2DD400D1F01B /* Accelerometer */;
+			targetProxy = 1811795723EF2DD500D1F01B /* PBXContainerItemProxy */;
 		};
-		1816D47223E857B800182D53 /* PBXTargetDependency */ = {
+		1811796323EF2DD500D1F01B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1816D44E23E857B600182D53 /* ItsuDareGame */;
-			targetProxy = 1816D47123E857B800182D53 /* PBXContainerItemProxy */;
+			target = 1811793F23EF2DD400D1F01B /* Accelerometer */;
+			targetProxy = 1811796223EF2DD500D1F01B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1816D45823E857B600182D53 /* Main.storyboard */ = {
+		1811794923EF2DD400D1F01B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1816D45923E857B600182D53 /* Base */,
+				1811794A23EF2DD400D1F01B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1816D45D23E857B800182D53 /* LaunchScreen.storyboard */ = {
+		1811794E23EF2DD500D1F01B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1816D45E23E857B800182D53 /* Base */,
+				1811794F23EF2DD500D1F01B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1816D47723E857B800182D53 /* Debug */ = {
+		1811796823EF2DD500D1F01B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		1816D47823E857B800182D53 /* Release */ = {
+		1811796923EF2DD500D1F01B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,166 +430,166 @@
 			};
 			name = Release;
 		};
-		1816D47A23E857B800182D53 /* Debug */ = {
+		1811796B23EF2DD500D1F01B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = ItsuDareGame/Info.plist;
+				DEVELOPMENT_TEAM = H9A9L5MZZC;
+				INFOPLIST_FILE = Accelerometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.ItsuDareGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.Accelerometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1816D47B23E857B800182D53 /* Release */ = {
+		1811796C23EF2DD500D1F01B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = ItsuDareGame/Info.plist;
+				DEVELOPMENT_TEAM = H9A9L5MZZC;
+				INFOPLIST_FILE = Accelerometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.ItsuDareGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.Accelerometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1816D47D23E857B800182D53 /* Debug */ = {
+		1811796E23EF2DD500D1F01B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9A9L5MZZC;
-				INFOPLIST_FILE = ItsuDareGameTests/Info.plist;
+				INFOPLIST_FILE = AccelerometerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.ItsuDareGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.AccelerometerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ItsuDareGame.app/ItsuDareGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometer.app/Accelerometer";
 			};
 			name = Debug;
 		};
-		1816D47E23E857B800182D53 /* Release */ = {
+		1811796F23EF2DD500D1F01B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9A9L5MZZC;
-				INFOPLIST_FILE = ItsuDareGameTests/Info.plist;
+				INFOPLIST_FILE = AccelerometerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.ItsuDareGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.AccelerometerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ItsuDareGame.app/ItsuDareGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometer.app/Accelerometer";
 			};
 			name = Release;
 		};
-		1816D48023E857B800182D53 /* Debug */ = {
+		1811797123EF2DD500D1F01B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9A9L5MZZC;
-				INFOPLIST_FILE = ItsuDareGameUITests/Info.plist;
+				INFOPLIST_FILE = AccelerometerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.ItsuDareGameUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.AccelerometerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ItsuDareGame;
+				TEST_TARGET_NAME = Accelerometer;
 			};
 			name = Debug;
 		};
-		1816D48123E857B800182D53 /* Release */ = {
+		1811797223EF2DD500D1F01B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9A9L5MZZC;
-				INFOPLIST_FILE = ItsuDareGameUITests/Info.plist;
+				INFOPLIST_FILE = AccelerometerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.ItsuDareGameUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konatsup.AccelerometerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ItsuDareGame;
+				TEST_TARGET_NAME = Accelerometer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1816D44A23E857B600182D53 /* Build configuration list for PBXProject "ItsuDareGame" */ = {
+		1811793B23EF2DD400D1F01B /* Build configuration list for PBXProject "Accelerometer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1816D47723E857B800182D53 /* Debug */,
-				1816D47823E857B800182D53 /* Release */,
+				1811796823EF2DD500D1F01B /* Debug */,
+				1811796923EF2DD500D1F01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1816D47923E857B800182D53 /* Build configuration list for PBXNativeTarget "ItsuDareGame" */ = {
+		1811796A23EF2DD500D1F01B /* Build configuration list for PBXNativeTarget "Accelerometer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1816D47A23E857B800182D53 /* Debug */,
-				1816D47B23E857B800182D53 /* Release */,
+				1811796B23EF2DD500D1F01B /* Debug */,
+				1811796C23EF2DD500D1F01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1816D47C23E857B800182D53 /* Build configuration list for PBXNativeTarget "ItsuDareGameTests" */ = {
+		1811796D23EF2DD500D1F01B /* Build configuration list for PBXNativeTarget "AccelerometerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1816D47D23E857B800182D53 /* Debug */,
-				1816D47E23E857B800182D53 /* Release */,
+				1811796E23EF2DD500D1F01B /* Debug */,
+				1811796F23EF2DD500D1F01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1816D47F23E857B800182D53 /* Build configuration list for PBXNativeTarget "ItsuDareGameUITests" */ = {
+		1811797023EF2DD500D1F01B /* Build configuration list for PBXNativeTarget "AccelerometerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1816D48023E857B800182D53 /* Debug */,
-				1816D48123E857B800182D53 /* Release */,
+				1811797123EF2DD500D1F01B /* Debug */,
+				1811797223EF2DD500D1F01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1816D44723E857B600182D53 /* Project object */;
+	rootObject = 1811793823EF2DD400D1F01B /* Project object */;
 }
