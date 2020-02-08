@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1811782323ED2EA500D1F01B /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811782223ED2EA500D1F01B /* Mentor.swift */; };
+		1811782823ED3A1900D1F01B /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1811782523ED3A1900D1F01B /* ryo.jpg */; };
+		1811782923ED3A1900D1F01B /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1811782623ED3A1900D1F01B /* nagata.jpg */; };
+		1811782A23ED3A1900D1F01B /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1811782723ED3A1900D1F01B /* taithi.JPG */; };
 		1816D50723E949E400182D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D50623E949E400182D53 /* AppDelegate.swift */; };
 		1816D50923E949E400182D53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D50823E949E400182D53 /* SceneDelegate.swift */; };
 		1816D50B23E949E400182D53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816D50A23E949E400182D53 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1811782223ED2EA500D1F01B /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		1811782523ED3A1900D1F01B /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		1811782623ED3A1900D1F01B /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		1811782723ED3A1900D1F01B /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
 		1816D50323E949E400182D53 /* MentorBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentorBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1816D50623E949E400182D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1816D50823E949E400182D53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1811782423ED3A1900D1F01B /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		1816D4FA23E949E400182D53 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +114,18 @@
 		1816D50523E949E400182D53 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				1811782423ED3A1900D1F01B /* images */,
 				1816D50623E949E400182D53 /* AppDelegate.swift */,
 				1816D50823E949E400182D53 /* SceneDelegate.swift */,
+				1811782523ED3A1900D1F01B /* ryo.jpg */,
+				1811782623ED3A1900D1F01B /* nagata.jpg */,
+				1811782723ED3A1900D1F01B /* taithi.JPG */,
 				1816D50A23E949E400182D53 /* ViewController.swift */,
 				1816D50C23E949E400182D53 /* Main.storyboard */,
 				1816D50F23E949E500182D53 /* Assets.xcassets */,
 				1816D51123E949E500182D53 /* LaunchScreen.storyboard */,
 				1816D51423E949E500182D53 /* Info.plist */,
+				1811782223ED2EA500D1F01B /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1811782823ED3A1900D1F01B /* ryo.jpg in Resources */,
+				1811782923ED3A1900D1F01B /* nagata.jpg in Resources */,
+				1811782A23ED3A1900D1F01B /* taithi.JPG in Resources */,
 				1816D51323E949E500182D53 /* LaunchScreen.storyboard in Resources */,
 				1816D51023E949E500182D53 /* Assets.xcassets in Resources */,
 				1816D50E23E949E400182D53 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1811782323ED2EA500D1F01B /* Mentor.swift in Sources */,
 				1816D50B23E949E400182D53 /* ViewController.swift in Sources */,
 				1816D50723E949E400182D53 /* AppDelegate.swift in Sources */,
 				1816D50923E949E400182D53 /* SceneDelegate.swift in Sources */,
