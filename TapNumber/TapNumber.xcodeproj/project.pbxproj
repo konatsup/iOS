@@ -15,6 +15,7 @@
 		184D335A23FCD76200003722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184D335823FCD76200003722 /* LaunchScreen.storyboard */; };
 		184D336523FCD76300003722 /* TapNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D336423FCD76300003722 /* TapNumberTests.swift */; };
 		184D337023FCD76300003722 /* TapNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D336F23FCD76300003722 /* TapNumberUITests.swift */; };
+		184D337E23FD495900003722 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D337D23FD495900003722 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		184D336B23FCD76300003722 /* TapNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184D336F23FCD76300003722 /* TapNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapNumberUITests.swift; sourceTree = "<group>"; };
 		184D337123FCD76300003722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184D337D23FD495900003722 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				184D335623FCD76200003722 /* Assets.xcassets */,
 				184D335823FCD76200003722 /* LaunchScreen.storyboard */,
 				184D335B23FCD76200003722 /* Info.plist */,
+				184D337D23FD495900003722 /* ResultViewController.swift */,
 			);
 			path = TapNumber;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				184D335223FCD76100003722 /* ViewController.swift in Sources */,
 				184D334E23FCD76100003722 /* AppDelegate.swift in Sources */,
 				184D335023FCD76100003722 /* SceneDelegate.swift in Sources */,
+				184D337E23FD495900003722 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
