@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet var scoreLabel: UILabel!
     
     var timer: Timer = Timer()
-    
     var numArray: [Int] = [0, 1, 2, 3, 4, 5, 6, 7, 8]
     var buttonArray: [UIButton] = []
     var index: Int = 0
@@ -29,7 +28,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        initTimer()
+        initGame()
         initButtons()
     }
     
@@ -43,37 +42,36 @@ class ViewController: UIViewController {
     func initButtons(){
         let screenWidth = self.view.frame.width
         let screenHeight = self.view.frame.height
-        
         let centerX = screenWidth / 2
         let centerY = screenHeight / 2
         
         numArray.shuffle()
         
         for num in numArray {
-            let bx = Double(centerX) + space * Double((num % 3) - 1)
-            let by = Double(centerY) + space * Double((num / 3) - 1) + 200
+            let posX = Double(centerX) + space * Double((num % 3) - 1)
+            let posY = Double(centerY) + space * Double((num / 3) - 1) + 200
             let button = UIButton(type: .system)
             button.frame = CGRect(x: 0, y: 0, width: buttonWidth, height: buttonHeight)
             button.addTarget(self, action: #selector(self.clickAction(sender:)), for: .touchUpInside)
             button.setTitle(String(numArray[num]), for: .normal)
             button.tintColor = UIColor.white
             button.backgroundColor = UIColor.systemBlue
-            button.center = CGPoint(x: bx, y: by)
+            button.center = CGPoint(x: posX, y: posY)
             buttonArray.append(button)
             self.view.addSubview(button)
         }
     }
     
-    func initTimer(){
+    func initGame(){
         if !timer.isValid {
-            timer = Timer.scheduledTimer(timeInterval: timeInterval, target: self, selector: #selector(self.up), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: timeInterval, target: self, selector: #selector(self.countDown), userInfo: nil, repeats: true)
         }
         timerCount = maxTime
         score = 0
         scoreLabel.text = String(score)
     }
     
-    func reset(){
+    func resetButtons(){
         numArray.shuffle()
         var i = 0
         for button in buttonArray {
@@ -85,11 +83,11 @@ class ViewController: UIViewController {
     }
     
     func restart(){
-        initTimer()
-        reset()
+        initGame()
+        resetButtons()
     }
     
-    @objc func up(){
+    @objc func countDown(){
         timerCount -= timeInterval
         if timerCount < 0 {
             if timer.isValid {
@@ -111,11 +109,10 @@ class ViewController: UIViewController {
             sender.isEnabled = false;
             
             if index == numArray.count {
-                reset()
+                resetButtons()
             }
         }
     }
-    
     
 }
 
