@@ -55,6 +55,7 @@ class ViewController: UIViewController {
             button.addTarget(self, action: #selector(self.clickAction(sender:)), for: .touchUpInside)
             button.setTitle(String(numArray[num]), for: .normal)
             button.tintColor = UIColor.white
+            button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 26)
             button.backgroundColor = UIColor.systemBlue
             button.center = CGPoint(x: posX, y: posY)
             buttonArray.append(button)
