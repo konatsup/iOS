@@ -14,10 +14,12 @@ class ViewController: UIViewController {
     
     var numArray: [Int] = [0, 1, 2, 3, 4, 5, 6, 7, 8]
     var index: Int = 0
+    var score: Int = 0
     
-    let buttonWidth = 60.0
-    let buttonHeight = 60.0
-    let space = 100.0
+    let buttonWidth: Double = 60.0
+    let buttonHeight: Double = 60.0
+    let space: Double = 100.0
+    let point: Int = 10
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +55,8 @@ class ViewController: UIViewController {
         print(String(Int(sender.title(for: .normal)!)!))
         if index == Int(sender.title(for: .normal)!)! {
             index += 1
+            score += point
+            scoreLabel.text = String(score)
             sender.setTitle("", for: .normal)
             sender.isEnabled = false;
             
