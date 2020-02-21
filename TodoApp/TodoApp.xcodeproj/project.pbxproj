@@ -15,6 +15,7 @@
 		18B1F57723FFCD29009C4F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B1F57523FFCD29009C4F3E /* LaunchScreen.storyboard */; };
 		18B1F58223FFCD29009C4F3E /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1F58123FFCD29009C4F3E /* TodoAppTests.swift */; };
 		18B1F58D23FFCD2A009C4F3E /* TodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1F58C23FFCD2A009C4F3E /* TodoAppUITests.swift */; };
+		18B1F59B23FFD357009C4F3E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1F59A23FFD357009C4F3E /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		18B1F58823FFCD2A009C4F3E /* TodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B1F58C23FFCD2A009C4F3E /* TodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITests.swift; sourceTree = "<group>"; };
 		18B1F58E23FFCD2A009C4F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1F59A23FFD357009C4F3E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				18B1F57323FFCD29009C4F3E /* Assets.xcassets */,
 				18B1F57523FFCD29009C4F3E /* LaunchScreen.storyboard */,
 				18B1F57823FFCD29009C4F3E /* Info.plist */,
+				18B1F59A23FFD357009C4F3E /* AddViewController.swift */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				18B1F56F23FFCD28009C4F3E /* ViewController.swift in Sources */,
 				18B1F56B23FFCD28009C4F3E /* AppDelegate.swift in Sources */,
+				18B1F59B23FFD357009C4F3E /* AddViewController.swift in Sources */,
 				18B1F56D23FFCD28009C4F3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

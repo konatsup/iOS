@@ -31,6 +31,15 @@ class ViewController: UIViewController, UITableViewDataSource {
         cell?.textLabel?.text = taskArray[indexPath.row]
         return cell!
     }
+    
+    func addTask(task: String){
+        taskArray.append(task)
+        self.tableView.reloadData()
+    }
+    
+//    @IBAction func openAdd(){
+//        self.performSegue(withIdentifier: "toAdd", sender: nil)
+//    }
 
 }
 
