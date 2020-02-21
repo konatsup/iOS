@@ -13,13 +13,16 @@ class ViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     var taskArray: [String] = []
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         tableView.dataSource = self
         
-        taskArray = ["aaa", "iii", "uuu"]
+        if let tasks = defaults.object(forKey: "TASKS") as? [String] {
+            taskArray = tasks
+        }
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,12 +42,17 @@ class ViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCell.EditingStyle.delete {
             taskArray.remove(at: indexPath.row)
+            defaults.set(taskArray, forKey:"TASKS")
+            defaults.synchronize()
             tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.automatic)
+            
         }
     }
     
     func addTask(task: String){
         taskArray.append(task)
+        defaults.set(taskArray, forKey:"TASKS")
+        defaults.synchronize()
         self.tableView.reloadData()
     }
     
