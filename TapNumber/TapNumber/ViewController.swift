@@ -52,7 +52,7 @@ class ViewController: UIViewController {
             let posY = Double(centerY) + space * Double((num / 3) - 1) + 200
             let button = UIButton(type: .system)
             button.frame = CGRect(x: 0, y: 0, width: buttonWidth, height: buttonHeight)
-            button.addTarget(self, action: #selector(self.clickAction(sender:)), for: .touchUpInside)
+            button.addTarget(self, action: #selector(self.tapAction(sender:)), for: .touchUpInside)
             button.setTitle(String(numArray[num]), for: .normal)
             button.tintColor = UIColor.white
             button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 26)
@@ -100,7 +100,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func clickAction(sender: UIButton){
+    @IBAction func tapAction(sender: UIButton){
         print(String(Int(sender.title(for: .normal)!)!))
         if index == Int(sender.title(for: .normal)!)! {
             index += 1
